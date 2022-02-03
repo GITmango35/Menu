@@ -1,0 +1,113 @@
+* {
+    font-family:arial;
+   
+}
+
+#menu_wrapper {
+    background-color: #ffffff;
+}
+
+#left_col {
+    background-color:#ffff001e;
+    color: rgb(0, 0, 0);
+    left: 8px;
+    width: 48%;
+    height: 500px;
+    border: 3px solid orange;
+    position: absolute;
+    border-radius:10px;
+}
+
+#right_col {
+    background-color: #ffff001e;
+    width:48%;
+    height: 500px;
+    border: 3px solid orange;
+    border-radius:10px;
+    position: absolute;
+    left:50%;
+}
+
+.menu_entrees {
+    list-style-type:none;
+}
+
+.menu_entrees li {
+    list-style-type:none;
+    display: inline; 
+    margin-top:300px;
+}
+
+.menu_list li {
+
+    margin: 10px 0px 10px 25px;
+}
+
+h2#menuTitle {
+    color: black;
+    border: 3px solid orange;
+    font-size:30px;
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    background-color:white;
+    left: 10px;
+    top:0px;
+}
+
+/* h2#menuTitle{
+    color: #FFFFFF;
+background: #ffffff00;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+color: #FFFFFF;
+background: #ffffff00;
+} */
+
+button#vegOn {
+    position: relative;
+    font-size:20px;
+    top:-10px;
+    left:25px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid orange;
+    width:180px;
+}
+button#restoreMe {
+    position: relative;
+    font-size:20px;
+    top:-10px;
+    left:25px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid orange;
+    width:180px;
+
+}
+
+button#vegOn:hover {
+    background-color: #ffff001e;
+    border: 3px solid black;
+}
+
+button#restoreMe:hover {
+    background-color: #ffff001e;
+    border: 3px solid black;
+}
+
+img {
+    width:20px;
+    height:20px;
+    top:5px;
+    position: relative;
+}
+
+h4#menuTitle2 {
+    font-size:20px;
+    margin:20px 0px 0px 20px;
+}
+
+
+
+
